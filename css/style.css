@@ -1,0 +1,353 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+/* Подключение шрифта из папки */
+
+/* Подключение шрифта из папки */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   height: 100%;
+}
+html {
+   font-size: 16px; /* по умолчанию */
+}
+body {
+   line-height: 1;
+}
+.wrapper {
+   font-family: "Roboto", sans-serif;
+   margin: 0px auto;
+   background-color: rgb(240, 240, 240);
+   max-width: 1440px;
+}
+/* ------------------------------ */
+
+.title-header {
+   text-transform: uppercase;
+   font-size: 70px;
+   font-weight: 700;
+   text-align: center;
+   padding: 50px 0px 50px 0px;
+   color: #02133c;
+}
+
+/*==========================================================================================================*/
+.block,
+.pseudoelement,
+.content-img {
+   padding: 20px;
+   background-color: #fff;
+   margin: 0px 0px 30px 0px;
+   border: 1px solid #000;
+}
+.content-img {
+   margin: 0px 0px 100px 0px;
+}
+.block__subtitle,
+.pseudoelement__subtitle,
+.content-img__subtitle {
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #5d62b5;
+   background: url("../img/icontitle/01.svg") 0 0 / 24px no-repeat;
+   padding: 0px 0px 0px 30px;
+   margin: 0px 0px 33px 0px;
+}
+.block__title,
+.pseudoelement__title-main,
+.contant-img__title-main {
+   margin: 0px 0px 68px 0px;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+}
+.block__content,
+.pseudoelement__content,
+.content-img__content {
+   font-size: 0;
+}
+.content__item {
+   display: inline-block;
+   width: 33.333%;
+   vertical-align: top;
+   padding: 0px 30px 0px 86px;
+}
+
+.content__item-title,
+.pseudoelement__title,
+.content-img__title {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: #f2726f;
+   margin: 0px 0px 10px 0px;
+}
+.content__item-text,
+.pseudoelement__text,
+.content-img__text {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4b4b4b;
+}
+.content__item_1 {
+   background: url("../img/01.svg") 0 0 no-repeat;
+}
+.content__item_2 {
+   background: url("../img/02.svg") 0 0 no-repeat;
+}
+.content__item_3 {
+   background: url("../img/03.svg") 0 0 no-repeat;
+}
+/*==========================================================================================================*/
+
+.pseudoelement__item {
+   display: inline-block;
+   width: 365px;
+}
+
+.pseudoelement__icon {
+   display: inline-block;
+   width: 86px;
+   height: 63px;
+   vertical-align: top;
+}
+.pseudoelement__icon::before {
+   content: "";
+   width: 63px;
+   height: 63px;
+   display: block;
+}
+.pseudoelement__body {
+   width: 235px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.pseudoelement__item_1 .pseudoelement__icon::before {
+   background: url("../img/01.svg") 0 0 no-repeat;
+}
+.pseudoelement__item_2 .pseudoelement__icon::before {
+   background: url("../img/02.svg") 0 0 no-repeat;
+}
+.pseudoelement__item_3 .pseudoelement__icon::before {
+   background: url("../img/03.svg") 0 0 no-repeat;
+}
+/*==========================================================================================================*/
+
+.content-img__item {
+   display: inline-block;
+   width: 365px;
+   vertical-align: top;
+   padding: 0px 30px 0px 0px;
+}
+.content-img__icon {
+   display: inline-block;
+   width: 86px;
+   vertical-align: top;
+}
+.content-img__body {
+   width: 235px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+/*==========================================================================================================*/
+
+.marketing {
+   max-width: 1440px;
+   background: #29c3be url("../img/dog/bg1.svg") 600px 0px / 730px no-repeat;
+   padding: 112px 0px 120px 0px;
+   margin: 0px 0px 50px 0px;
+}
+.marketing__container {
+   max-width: 1020px;
+   margin: 0px auto;
+}
+
+.marketing__block-items {
+   display: inline-block;
+   margin: 0px 95px 0px 0px;
+}
+.marketing__dog {
+   display: inline-block;
+}
+.marketing__dog img {
+   margin: -300px 0px 50px 0px;
+   border-radius: 40px;
+}
+.marketing__subtitle {
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background: url("../img/dog/icons/subtitle.svg") 0 0 no-repeat;
+   padding: 2px 0px 0px 30px;
+   margin: 0px 0px 32px 0px;
+}
+.marketing__title {
+   max-width: 411px;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #ffffff;
+   margin: 0px 0px 79px 0px;
+}
+.marketing__items {
+   display: flex;
+   justify-content: space-between;
+}
+.marketing__item {
+   display: flex;
+}
+
+.marketing__info {
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+}
+.marketing__info-title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #ffffff;
+   margin: 0px 0px 5px 0px;
+}
+.marketing__info-text {
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5d62b5;
+}
+/*==========================================================================================================*/
+.perspiciatis {
+   background: #F5F5F5 url("../img/perspiciatis/bg/01.png") 100% 280% no-repeat;
+}
+.perspiciatis__body {
+   max-width: 1100px;
+   margin: 0px auto;
+   padding: 20px;
+}
+.perspiciatis__subtitle {
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   padding: 0px 0px 0px 33px;
+   background: url("../img/perspiciatis/icon/01.svg") left no-repeat;
+   color: #5d62b5;
+   font-weight: 700;
+}
+.perspiciatis__title {
+   font-size: 36px;
+   line-height: 42px;
+   font-weight: 900;
+   margin: 50px 0px 36px 0px;
+}
+.perspiciatis__items {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 0px 0px 33px 0px;
+}
+.perspiciatis__item {
+   margin: 0px 0px 25px 0px;
+   display: flex;
+   flex-direction: column;
+   max-width: 324px;
+   text-align: center;
+   background: #ffffff;
+   border-radius: 20px;
+   padding: 50px 44px 50px 43px;
+}
+.perspiciatis__item:hover {
+   box-shadow: 2px 5px 16px 0px #000000;
+   transition: 0.3s all ease;
+}
+.servises__image {
+   margin: 0px 0px 33px 0px;
+}
+.servises__title {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   text-align: center;
+   color: #f2726f;
+   margin: 0px 0px 20px 0px;
+}
+.servises__text {
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.15px;
+   color: #4b4b4b;
+}
+.perspiciatis__btn {
+   text-align: center;
+   border-radius: 8px;
+}
+.perspiciatis__btn a {
+   display: inline-block;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.15px;
+   color: #ffffff;
+   padding: 9px 25px;
+   background: #f2726f;
+   text-transform: uppercase;
+}
+.perspiciatis__btn a:hover {
+   box-shadow: 2px 2px 3px 3px grey;
+   transition: 0.3s all ease;
+}
+/*==========================================================================================================*/
+.footer {
+   font-family: "Poppins", sans-serif;
+   font-size: 36px;
+   line-height: 42px;
+   font-weight: 900;
+   color: #02133c;
+   text-align: center;
+   padding: 20px;
+}
